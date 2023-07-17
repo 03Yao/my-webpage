@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>电磁教学资源开发</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="title-section">
+        <h1 class="title">电磁教学资源开发</h1>
+        <h2 class="sub-title">Electromagnetic Teaching Resources Development</h2>
+    </section>
+
+    <section class="image-section">
+        <img src="封面1.jpg" alt="Cover Image">
+    </section>
+
+    <section class="options-section">
+        <div class="option" onclick="jumpTo('电场')">电场</div>
+        <div class="option" onclick="jumpTo('磁场')">磁场</div>
+        <div class="option" onclick="jumpTo('电磁场')">电磁场</div>
+    </section>
+
+    <script>
+        function jumpTo(section) {
+            window.location.href = section + '.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fa; /* Light blue background */
+    border: 2px solid #007bff; /* Border for the whole page */
+    box-sizing: border-box; /* Ensure the border is included in the total width/height */
+}
+
+.title-section {
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(to right, #00bfa5, #007bff); /* Tie-dye effect for title section */
+    border: 2px solid #00bfa5; /* Border color for title section */
+}
+
+.title {
+    font-size: 36px;
+    color: #fff; /* White text color */
+}
+
+.sub-title {
+    font-size: 7.2px; /* One-fifth of the font size of the title */
+    color: #fff; /* White text color */
+}
+
+.image-section {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 100%; /* Make the image width 100% to align with the edge of the first plate */
+    height: auto;
+    display: block;
+}
+
+.options-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.option {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: #fff; /* White text color */
+    background-color: #0056b3; /* Darker blue background for options */
+    border: 2px solid #0056b3; /* Square border for options */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #007bff; /* Lighter blue background on hover */
+}
+
+/* Custom styles for the first plate */
+.option:nth-child(1) {
+    background-image: linear-gradient(to right, #00bfa5, #007bff); /* Tie-dye effect for the first plate */
+    border: 2px solid #00bfa5; /* Border color for the first plate */
+}
+
+/* Custom styles for the third plate */
+.options-section {
+    display: flex;
+    justify-content: space-between; /* Align the plates to both sides */
+}
+
+.option {
+    flex: 1; /* Equal width for all plates to take larger proportion */
+}
